@@ -4,7 +4,7 @@
 
 >This is the script to make Slack Desktop App (on Windows) night-mode (or to customize it in a way you'd like to).
 
-![Screenshot](image.png)
+![Screenshot](screenshot.png)
 
 ## How to install this
 
