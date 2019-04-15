@@ -1,4 +1,4 @@
-# stolen from https://gist.github.com/Meidor/a5b3661bc3208f33261d4ff9b04a68ce
+# stolen from https://gist.github.com/adammcfadden/f9265c9dcb554c1c5169350988a60ecd
 
 $slackBaseDir = "$env:LocalAppData\Slack"
 $installations = Get-ChildItem $slackBaseDir -Directory | Where-Object { $_.Name.StartsWith("app-") }
