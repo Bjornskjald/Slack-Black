@@ -1,3 +1,5 @@
+# stolen from https://gist.github.com/Meidor/a5b3661bc3208f33261d4ff9b04a68ce
+
 $slackBaseDir = "$env:LocalAppData\Slack"
 $installations = Get-ChildItem $slackBaseDir -Directory | Where-Object { $_.Name.StartsWith("app-") }
 $version = $installations | Sort-Object { [version]$_.Name.Substring(4) } | Select-Object -Last 1
